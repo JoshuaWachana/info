@@ -191,6 +191,7 @@ section {
 .about p {
   line-height: 1.7rem;
   padding: 0.4rem;
+  text-align: justify;
 }
 
 /* About Me Section End */
@@ -301,7 +302,3 @@ section {
   font-weight: bold;
 }
 /* Projects Section End */
-
-/* Contact Section */
-
-/* Contact Section End */
