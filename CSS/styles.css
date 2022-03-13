@@ -196,3 +196,22 @@ section {
   padding-bottom: 5px;
   border-bottom: 1px var(--primary-color) dotted;
 }
+
+/* About Me Section */
+
+.about {
+  background-color: lightgray;
+  padding: 1rem 2rem;
+}
+
+.about h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.about p {
+  line-height: 1.7rem;
+  padding: 0.4rem;
+}
+
+/* About Me Section End */
