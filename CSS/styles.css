@@ -23,6 +23,13 @@
   */
 }
 
+/*
+
+body {
+  font-family: var(--font-family);
+}
+*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,18 +50,24 @@ html {
   color: white;
   padding: 1rem;
   display: block;
+  height: 100%;
 }
 
 .navbar-links li {
-  border: 0.5px white dotted;
+  border-left: 1px white dotted;
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
   color: white;
+  box-shadow: 0px 12px 10px rgba(114, 96, 96, 0.7);
 }
 
 .nameOnNavBar {
@@ -111,6 +124,12 @@ html {
 
   .navbar-links li {
     text-align: center;
+    border-top: 1px white dotted;
+    border-left: none;
+  }
+
+  #bottom-link {
+    border-bottom: 1px white dotted;
   }
 
   .navbar-links a {
@@ -122,9 +141,6 @@ html {
   }
 }
 
-/*
-
-body {
-  font-family: var(--font-family);
+.content {
+  margin-top: 15px;
 }
-*/
