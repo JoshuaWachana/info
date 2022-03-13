@@ -159,6 +159,7 @@ html {
   justify-content: center;
   gap: 2.5rem;
   margin: auto;
+  text-align: center;
 }
 
 .hero img {
@@ -175,7 +176,7 @@ html {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-.bio h1 {
+.bio h2 {
   margin-bottom: 0.5rem;
 }
 
