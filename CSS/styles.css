@@ -45,6 +45,10 @@ html {
   display: block;
 }
 
+.navbar-links li {
+  border: 0.5px white dotted;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -85,7 +89,7 @@ html {
   border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .toggle-button {
     display: flex;
   }
