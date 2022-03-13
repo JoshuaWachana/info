@@ -41,6 +41,8 @@ html {
   box-sizing: border-box;
 }
 
+/* navbar */
+
 .navbar-links ul {
   list-style-type: none;
 }
@@ -141,6 +143,12 @@ html {
   }
 }
 
+/* navbar end */
+
 .content {
-  margin-top: 15px;
+  margin-top: 20px;
 }
+
+/* hero section */
+
+/* hero section end */
