@@ -5,6 +5,7 @@
 /* Variables */
 :root {
   --primary-color: #4b0909;
+  --primary-shadow: rgba(114, 96, 96, 0.7);
 
   /*
   --font-family: "Roboto", sans-serf;
@@ -14,7 +15,7 @@
   --bg-color: #fcfcfc;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
+  
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -69,7 +70,7 @@ html {
   align-items: center;
   background-color: var(--primary-color);
   color: white;
-  box-shadow: 0px 12px 10px rgba(114, 96, 96, 0.7);
+  box-shadow: 0px 12px 10px var(--primary-shadow);
 }
 
 .nameOnNavBar {
@@ -151,4 +152,46 @@ html {
 
 /* hero section */
 
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20%;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio h1 {
+  margin-bottom: 0.5rem;
+}
+
+.bio p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+#namespan {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
 /* hero section end */
+
+section {
+  padding-bottom: 5px;
+  border-bottom: 1px var(--primary-color) dotted;
+}
