@@ -215,3 +215,22 @@ section {
 }
 
 /* About Me Section End */
+
+/* Skills Section */
+
+.skills {
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skills h2 {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+/* Skills Section End */
