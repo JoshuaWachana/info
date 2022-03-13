@@ -229,8 +229,31 @@ section {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 11rem;
+  height: 11rem;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-wrapper img {
+  padding: 1.3rem;
+}
+
+.skills-wrapper figcaption {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.skills-wrapper figure {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px 5px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
 
 /* Skills Section End */
