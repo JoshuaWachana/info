@@ -315,7 +315,7 @@ section {
 }
 
 .btn_proj:hover {
-  background-color: tan;
+  background-color: #ffc107;
   color: var(--primary-color);
 }
 
