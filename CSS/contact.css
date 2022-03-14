@@ -44,7 +44,7 @@
   border: 1px var(--bs-dark) solid !important;
 }
 
-/* Contact Section - Style for Bootstrap Form*/
+/* Secondary Home Button*/
 
 #back-btn {
   background-color: var(--bs-dark);
@@ -55,6 +55,8 @@
   color: var(--bs-primary);
   border: 3px var(--bs-primary) dotted !important;
 }
+
+/* Contact Section - Style for Bootstrap Form*/
 
 main {
   display: flex;
