@@ -145,7 +145,7 @@ html {
   border: 2px var(--primary-color) dotted;
   border-radius: 20%;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  margin: 10px;
+  margin: 5px;
 }
 
 .bio {
@@ -154,7 +154,7 @@ html {
   border: 2px var(--primary-color) dotted;
   border-radius: 10px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  margin: 10px;
+  margin: 5px;
 }
 
 .bio:hover {
@@ -251,6 +251,7 @@ section {
 /* Projects Section */
 
 .projects {
+  margin-top: 50px !important;
   background-color: rgb(202, 186, 186);
   padding: 32px 0;
 }
@@ -322,6 +323,10 @@ section {
 }
 
 /* Projects Section End */
+
+section {
+  scroll-margin-top: 80px;
+}
 
 section h2 {
   color: var(--primary-color);
