@@ -1,13 +1,23 @@
 /* Contact Section - Style for Bootstrap Form*/
 
+#back-btn {
+  background-color: var(--bs-dark);
+  color: white;
+}
+#back-btn:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
 main {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
+  margin: 0 auto;
 }
 
 form {
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -36,9 +46,14 @@ form h1 {
   color: var(--bs-primary);
 }
 
-.back-btn:hover {
-  background-color: green;
-  color: var(--bs-primary);
+.btn_group2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.btn_group2 .btn {
+  flex: 1;
 }
 
 /* Contact Section End */
