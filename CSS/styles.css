@@ -135,11 +135,14 @@ html {
   gap: 2.5rem;
   margin: auto;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .hero img {
   height: 20rem;
   width: 20rem;
+  border: 2px var(--primary-color) dotted;
   border-radius: 20%;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -147,6 +150,7 @@ html {
 .bio {
   width: 25rem;
   padding: 0.625rem;
+  border: 2px var(--primary-color) dotted;
   border-radius: 10px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -173,7 +177,6 @@ html {
 
 section {
   padding-bottom: 5px;
-  border-bottom: 1px var(--primary-color) dotted;
 }
 
 /* About Me Section */
@@ -235,6 +238,7 @@ section {
 .skills-wrapper figure {
   background-color: #fff;
   border-radius: 12px;
+  border: 2px var(--primary-color) dotted;
   box-shadow: 0 5px 10px 5px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
@@ -271,6 +275,7 @@ section {
   height: 24rem;
   width: 24rem;
   background-color: white;
+  border: 2px var(--primary-color) dotted;
   border-radius: 12px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   padding: 20px;
@@ -297,8 +302,32 @@ section {
 
 .project-card a {
   text-decoration: none;
-  color: var(--primary-color);
+}
+
+.project-card .btn_proj {
+  background-color: var(--primary-color);
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
+  padding: 0.5rem;
+  border: 1px var(--primary-color) solid;
+  border-radius: 10px;
 }
+
+.btn_proj:hover {
+  background-color: tan;
+  color: var(--primary-color);
+}
+
 /* Projects Section End */
+
+section h2 {
+  color: var(--primary-color);
+}
+
+.section_curved_edge {
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px var(--primary-color) dotted;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}

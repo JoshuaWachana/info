@@ -51,8 +51,9 @@
   color: white;
 }
 #back-btn:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--bs-yellow);
   color: var(--bs-primary);
+  border: 3px var(--bs-primary) dotted !important;
 }
 
 main {
@@ -88,8 +89,9 @@ form h1 {
 }
 
 .btn_group .btn:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--bs-third);
   color: var(--bs-primary);
+  border: 3px var(--bs-primary) dotted !important;
 }
 
 .btn_group2 {
