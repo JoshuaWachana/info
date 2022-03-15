@@ -25,7 +25,7 @@ HTML, CSS, JavaScript, and Bootstrap v.5
 Below are are list of tools used, and the precise things they were used for:
 
 - [Favicon.io](https://favicon.io/) for the favicon
-- [ESgif](https://ezgif.com/) for creating the project gif
+- [EZgif](https://ezgif.com/) for creating the project gif
 
 ## How to Run
 
