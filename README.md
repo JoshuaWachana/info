@@ -26,6 +26,7 @@ Below are are list of tools used, and the precise things they were used for:
 
 - [Favicon.io](https://favicon.io/) for the favicon
 - [EZgif](https://ezgif.com/) for creating the project gif
+- [Themestr.app](https://themestr.app/) for creating custom Bootstrap v5 theme
 
 ## How to Run
 
