@@ -1,6 +1,6 @@
 # info - Portfolio Project Website
 
-## Author
+## Project Author
 
 Joshua Wachana
 
@@ -22,7 +22,7 @@ HTML, CSS, JavaScript, and Bootstrap v.5
 
 ## Tools Used
 
-Below are are list of tools used, and the precise things they were used for:
+Listed below are the tools used:
 
 - [Favicon.io](https://favicon.io/) for the favicon
 - [EZgif](https://ezgif.com/) for creating the project gif
